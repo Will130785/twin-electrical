@@ -1,0 +1,308 @@
+/**********************
+UTILITY CLASSES
+***********************/
+.-u-bold {
+    font-weight: bold;
+}
+
+/**********************
+NAVBAR SECTION
+***********************/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    height: 15rem;
+}
+
+/* Logo */
+.logo {
+    width: 25rem;
+    height: auto;
+}
+
+/* Links */
+.nav-links {
+    display: flex;
+}
+
+/* Link Media queries */
+@media only screen and (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all .3s;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #3ab54b;
+    font-size: 1.6rem;
+}
+
+/* Contact */
+.nav-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+    background-color: #e4f3ff;
+    padding: 0 2rem;
+}
+
+.nav-contact p {
+    padding: .5rem 0;
+}
+
+/* Hamburger */
+.hamburger {
+    display: none;
+}
+
+/* Hamburger Media Queries */
+@media only screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+/**********************
+HEADER SECTION
+***********************/
+.header {
+    background-image: url("../img/header/gerrit-vermeulen-AETe6TuEBck-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/* Header text content */
+.header-description {
+    position: relative;
+    bottom: 5rem;
+    color: #fff;
+    width: 45%;
+    padding: 6rem 4rem;
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.header-description h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.header-description h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.header-description p {
+    font-size: 2rem;
+    color: #3ab54b;
+}
+
+/* Header certification logos */
+.header-logos {
+    position: relative;
+    bottom: 5rem;
+    margin-right: 3rem;
+}
+
+/**********************
+MAIN SECTION
+SERVICES
+***********************/
+
+/* Carousel */
+.main-services {
+    padding: 8rem 4rem;
+}
+
+/* Overall card styles */
+.card {
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    margin: 0 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Individual card styles */
+.card-1 {
+    background-image: url("../img/main-service-slider/chirayu-trivedi-wBtteAUCcDM-unsplash.jpg");
+}
+
+.card-2 {
+    background-image: url("../img/main-service-slider/freestocks-40k6ZqbsXuo-unsplash.jpg");
+}
+
+.card-3 {
+    background-image: url("..//img/main-service-slider/mikael-seegen-jX6WXNkvsPs-unsplash.jpg");
+}
+
+.card-4 {
+    background-image: url("..//img/main-service-slider/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
+}
+
+/**********************
+ABOUT SECTION
+***********************/
+.main-about {
+    padding: 0 4rem;
+}
+
+.main-about-content {
+    text-align: center;
+}
+
+.main-about-content h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.main-about-content p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+
+/**********************
+MAIN SECTION QUOTE
+***********************/
+.main-quote {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 70rem;
+    margin: 4rem 0;
+}
+
+/* Left side */
+.main-quote-left {
+    background-image: url("../img/about/shirish-suwal-ctmuaOO-JJI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Right side */
+.main-quote-right {
+    padding: 8rem;
+}
+
+.main-quote-right h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    line-height: 1.3;
+}
+
+.main-quote-right p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+/* Quote Button */
+.main-quote-btn {
+    margin-top: 4rem;
+    background-color: rgb(13, 63, 128);
+    border: none;
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.8rem;
+    transition: all .3s;
+}
+
+.main-quote-btn:hover {
+    cursor: pointer;
+    background-color: #042e64;
+}
+
+/**********************
+MAIN SECTION REVIEW
+***********************/
+/* Main Container */
+.main-review {
+    text-align: center;
+    background-image: linear-gradient(to right bottom,
+     rgba(13, 63, 128, 0.8),
+      rgba(13, 63, 128, 0.8)),
+       url("../img/reviews/clint-patterson-fwEwcQGkD1w-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Content */
+.main-review h2 {
+    font-size: 3rem;
+    padding: 4rem 0;
+}
+
+.main-review p {
+    font-size: 1.6rem;
+    padding: 2rem 10rem;
+}
+
+/**********************
+EMERGENCY SECTION
+***********************/
+.main-emergency {
+    display: grid;
+    grid-template-rows: repeat(2,  min-content);
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 0;
+}
+
+.main-emergency h2 {
+    text-align: center;
+    grid-column: 1 / 3;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.main-emergency p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.main-emergency-left {
+    padding: 0 4rem;
+}
+
+.main-emergency-right {
+    padding: 0 4rem;
+}
+
+/**********************
+MAP SECTION
+***********************/
+
+.main-map {
+    padding: 4rem;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
