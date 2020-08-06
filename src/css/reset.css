@@ -9,6 +9,48 @@ html, body, h1, h2, h3, h4, h5, h6 {
     font-size: 62.5%; /* 1rem = 10px */
 }
 
+@media only screen and (max-width: 900px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 55%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 35%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 30%;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-size: 20%;
+    }
+}
+
 strong {
     font-weight: normal;
 }

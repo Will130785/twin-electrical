@@ -33,14 +33,14 @@ hamburger.addEventListener("click", e => {
       hoverpause: true,
       perView: 6,
       breakpoints: {
-        1100: {
-          perView: 3
-        },
         900: {
-          perView: 2
+          perView: 4
         },
         600: {
-          perView: 1
+          perView: 3
+        },
+        400: {
+          perView: 2
         }
       }
     }).mount();
@@ -58,14 +58,14 @@ hamburger.addEventListener("click", e => {
       hoverpause: true,
       perView: 6,
       breakpoints: {
-        1100: {
-          perView: 3
-        },
         900: {
-          perView: 2
+          perView: 4
         },
         600: {
-          perView: 1
+          perView: 3
+        },
+        400: {
+          perView: 2
         }
       }
     }).mount();
