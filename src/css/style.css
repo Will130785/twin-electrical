@@ -115,6 +115,8 @@ HEADER SECTION
 @media only screen and (max-width: 900px) {
     .header-description {
         bottom: 0;
+        width: 90%;
+        margin-top: 5rem;
     }
 }
 
